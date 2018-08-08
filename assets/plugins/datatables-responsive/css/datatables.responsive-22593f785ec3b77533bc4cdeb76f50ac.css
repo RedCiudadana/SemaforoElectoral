@@ -1,0 +1,23 @@
+table.has-columns-hidden > tbody > tr > td > span.responsiveExpander {
+    background: url('../img/plus-4b49f99aa084312c205b00c59872f26f.png') no-repeat 5px center;
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+table.has-columns-hidden > tbody > tr.detail-show > td span.responsiveExpander {
+    background: url('../img/minus-6c9abd357984d16d29fa090d4cb8717d.png') no-repeat 5px center;
+}
+
+table.has-columns-hidden > tbody > tr.row-detail > td {
+    background: #eee;
+}
+
+table.has-columns-hidden > tbody > tr.row-detail > td > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+table.has-columns-hidden > tbody > tr.row-detail > td > ul > li > span.columnTitle {
+    font-weight: bold;
+}
