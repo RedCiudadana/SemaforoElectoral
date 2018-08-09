@@ -214,7 +214,7 @@
                 $('.main-stylesheet').attr('href', 'pages/css/pages.rtl-3929588cbc01a30e6d452f7c94aa3b8a.css');
             } else {
                 $('body').removeClass('rtl')
-                $('.main-stylesheet').attr('href', 'pages/css/pages-e48c53e019a1cfdb69c3b29c152ce67c.css');
+                $('.main-stylesheet').attr('href', 'pages/css/pages-87eeb4598c8002e1595d549877374c84.css');
 
             }
         };

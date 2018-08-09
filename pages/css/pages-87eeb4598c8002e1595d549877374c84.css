@@ -14753,3 +14753,16 @@ Main components
   width: 100%;
   margin: auto;
 }
+.modal-dialog .body-modal img {
+  width: 80%;
+  max-width: 180px;
+  vertical-align: middle;
+  margin-top: 10%;
+}
+.modal-dialog .body-modal .buttons {
+  margin-top: 50px;
+}
+.modal-dialog .body-modal .buttons .btn {
+  width: 45%;
+  margin: 10px;
+}
