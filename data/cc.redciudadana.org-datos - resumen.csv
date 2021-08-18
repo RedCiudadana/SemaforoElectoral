@@ -1,0 +1,8 @@
+id,eje,descripcion
+cc-1,Número de expedientes ingresados,Número de expedientes ingresados en la Corte de Constitucionalidad
+cc-2,Tipo de expedientes ingresados a cada magistratura,"Del presente periodo le fueron asignados de manera aleatoria por el Sistema Informático de Expedientes de la Corte de Constitucionalidad, a cada magistratura, los expedientes abajo detallados para la emisión de sentencia o auto definitivo."
+cc-3,Número de autos emitidos,Número de autos emitidos por el pleno de la Corte de Constitucionalidad (por tipo de expediente)
+cc-4,Número de sentencias emitidas,Número de sentencias emitidas por el pleno de la Corte de Constitucionalidad (por tipo de expediente)
+cc-5,Número de acciones constitucionales suspendidas,Número de acciones constitucionales suspendidas por el pleno de la Corte de Constitucionalidad (unidad de análisis y viabilidad) (por tipo de expediente)
+cc-6,Indicadores de Jurisprudencia Y Gaceta,Indicadores de la Unidad de jurisprudencia y gaceta
+cc-8,Estadísticas globales,Avances en la implementación de políticas de acceso a la justicia constitucional para los grupos en situación de vulnerabilidad.

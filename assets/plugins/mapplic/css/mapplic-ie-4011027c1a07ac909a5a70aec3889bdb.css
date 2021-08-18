@@ -1,0 +1,19 @@
+a {
+	outline: none;
+}
+
+a img {
+	border: none;
+}
+
+.im-minimap {
+	border: 1px solid #666;
+}
+
+.im-minimap-overlay {
+	background-image: url(images/alpha50-bc020122086a470a0fc26091c37902b5.png);
+}
+
+.im-list-category > a span {
+	background-image: url(images/alpha20-54439d2bc0cf8534e42c7b61f879beb2.png);	
+}

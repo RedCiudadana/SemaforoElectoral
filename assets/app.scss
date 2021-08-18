@@ -1,0 +1,206 @@
+// Colors
+$primary: #357cde;
+
+$modal-content-width: 90%;
+
+@import "bulma";
+
+// NAVBAR
+
+.nav {
+    height: 5rem;
+    padding: 0 120px 0 120px;
+}
+
+.nav .escudo {
+    height: 60px;
+    width: 60px;
+    margin: auto auto;
+}
+
+.nav .header-banner {
+    height: 45px;
+    margin: auto 10px;
+}
+
+.nav .fa-twitter {
+    margin-left: 30px;
+}
+// MAIN
+
+.banner {
+    padding-top: 2.5rem;
+}
+
+.banner h1 {
+    margin-bottom: 25px;
+}
+
+.banner p {
+    padding: auto 100px auto 100px;
+}
+
+.banner video {
+    height: 20rem;
+}
+
+// TILES
+@media (min-width: 700px) {
+    .modals .is-ancestor .is-4 {
+        width: 25% !important;
+    }
+}
+
+// BOX MODALS
+
+.modals .tile .is-parent {
+    height: 100%;
+}
+
+.modals .tile figure {
+    margin: auto auto 20px auto;
+}
+
+.modals .tile strong {
+    font-size: 0.85rem;
+}
+
+.modals .tile .is-parent {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $primary;
+}
+
+.modals .tile .is-parent:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  width: 80%;
+  height: 80%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+// MODALS
+
+.modal-card {
+    margin-top: 100px;
+}
+
+.overflow-hidden {
+    overflow-y: hidden !important;
+}
+
+.modal-card-body {
+    padding: 0px !important;
+}
+
+.modal-header img {
+    width: 80%;
+    max-width: 350px;
+}
+
+.modal-header {
+    background-color: $primary;
+    color: white;
+    padding: 50px 10px 50px 10px;
+}
+
+.modal-header .title, strong {
+    color: white;
+}
+
+.modal-header p {
+    font-weight: lighter;
+}
+
+.modal-header .button {
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 1rem;
+    height: 50px;
+}
+
+.modal-general {
+    padding: 30px 0 30px 0;
+    background: $white-ter;
+    margin: -15px !important;
+}
+
+.modal-general .tag {
+    width: 80%;
+    max-width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    background: white;
+}
+
+.modal-data .columns {
+    border-bottom: 1px solid $white-ter;
+}
+
+.modal-data progress {
+    height: 30px;
+    border-radius: 2px;
+}
+
+// TABS
+#tab-content {
+    padding-bottom: 50px;
+}
+
+#tab-content {
+  background: white;
+}
+
+#tab-content p {
+  display: none;
+  padding: 0 5%;
+}
+
+#tab-content h6 {
+  text-align: left;
+}
+
+#tab-content p.is-active {
+  display: block;
+}
+
+.tabs {
+  // EXPLICIT WHITE ~ Safari
+  background: white;
+}
+
+.tabs ul {
+    border-bottom-color: $primary;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+.tabs li.is-active a {
+    background: $primary;
+    color: white;
+    margin-bottom: -2px;
+}
+
+.content ul {
+    margin: 0px;
+}
+

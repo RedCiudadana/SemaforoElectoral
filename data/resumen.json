@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cc-1",
+    "eje": "Número de expedientes ingresados",
+    "descripcion": "Número de expedientes ingresados en la Corte de Constitucionalidad"
+  },
+  {
+    "id": "cc-2",
+    "eje": "Tipo de expedientes ingresados a cada magistratura",
+    "descripcion": "Del presente periodo le fueron asignados de manera aleatoria por el Sistema Informático de Expedientes de la Corte de Constitucionalidad, a cada magistratura, los expedientes abajo detallados para la emisión de sentencia o auto definitivo."
+  },
+  {
+    "id": "cc-3",
+    "eje": "Número de autos emitidos",
+    "descripcion": "Número de autos emitidos por el pleno de la Corte de Constitucionalidad (por tipo de expediente)"
+  },
+  {
+    "id": "cc-4",
+    "eje": "Número de sentencias emitidas",
+    "descripcion": "Número de sentencias emitidas por el pleno de la Corte de Constitucionalidad (por tipo de expediente)"
+  },
+  {
+    "id": "cc-5",
+    "eje": "Número de acciones constitucionales suspendidas",
+    "descripcion": "Número de acciones constitucionales suspendidas por el pleno de la Corte de Constitucionalidad (unidad de análisis y viabilidad) (por tipo de expediente)"
+  },
+  {
+    "id": "cc-6",
+    "eje": "Indicadores de Jurisprudencia Y Gaceta",
+    "descripcion": "Indicadores de la Unidad de jurisprudencia y gaceta"
+  },
+  {
+    "id": "cc-8",
+    "eje": "Estadísticas globales",
+    "descripcion": "Avances en la implementación de políticas de acceso a la justicia constitucional para los grupos en situación de vulnerabilidad."
+  }
+]
