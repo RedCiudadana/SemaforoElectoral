@@ -21,7 +21,7 @@ module.exports = function(deployTarget) {
     ENV.build.environment = 'production';
     // configure other plugins for production deploy target here
     ENV.git = {
-      repo: 'https://github.com/RedCiudadana/SemaforoElectoral',
+      repo: 'git@github.com:RedCiudadana/SemaforoElectoral.git',
       branch: 'gh-pages',
       worktreePath: '/tmp/deploy'
     };
