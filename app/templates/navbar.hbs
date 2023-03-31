@@ -18,6 +18,16 @@ as |navbar|
         height="45"
       >
     {{/link-to}}
+
+    {{#link-to "application" class="navbar-brand"}}
+      <img
+        src="img/LOGO-RED_NEGRO.png"
+        class="img-responsive"
+        title={{nombreApp}}
+        alt="Red Ciudadana"
+        height="45"
+      >
+    {{/link-to}}
   </div>
 
   {{#navbar.content}}
@@ -35,13 +45,14 @@ as |navbar|
         <a href="https://raw.githubusercontent.com/RedCiudadana/Recursos-Semaforo-Electoral/gh-pages/Reportes2019.pdf">Reportes</a>
       {{/nav.item}}
       {{#nav.item active=false class="mx-3 ml-5 social"}}
-        <a href="https://www.facebook.com/Redciudadanagt/" target="_blank">
-          <img src="img/iconos/FB.png" alt="RedCiudadanaGt" height="30px" width="30px">
+        <a href="https://www.instagram.com/redxguate/" target="_blank">
+          <i class="fa-brands fa-instagram" alt="RedCiudadanaGt" height="30px" width="30px"></i>
         </a>
-      {{/nav.item}}
-      {{#nav.item active=false class="mx-3 social"}}
         <a href="https://twitter.com/RedxGuate" target="_blank">
-          <img src="img/iconos/TW.png" alt="RedXGuate" height="30px" width="30px">
+          <i class="fa-brands fa-twitter" alt="RedCiudadanaGt" height="30px" width="30px"></i>
+        </a>
+        <a href="https://www.facebook.com/Redciudadanagt/" target="_blank">
+          <i class="fa-brands fa-facebook-f" alt="RedCiudadanaGt" height="30px" width="30px"></i>
         </a>
       {{/nav.item}}
     {{/navbar.nav}}
