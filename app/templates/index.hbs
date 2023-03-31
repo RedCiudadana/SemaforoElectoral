@@ -15,19 +15,19 @@
 
 <div class="container-fluid">
 
-    {{!-- Se parte del semáforo electoral --}}
-    <div class="row bg-primary text-white justify-content-center text-center">
-        <div class="col-12 col-md-8">
-            <h4 class="font-weight-bold">¡Sé parte del semáforo electoral!</h4>
-            <h5 class="font-weight-light">
-              La transparencia en nuestras elecciones es la base de la calidad de nuestra democracia. En semáforo electoral damos luz verde a la buena democracia e invitamos a frenar las irregularidades a través de denuncias ciudadanas.
-            </h5>
-        </div>
-        <div class="col-12 text-center">
-            <a href="/#report"><button class="btn btn-warning text-white my-3 px-4">¿Cómo denunciar?</button></a>
-        </div>
-        <div id="reset-scroll"></div>
-    </div>
+  {{!-- Se parte del semáforo electoral --}}
+  <div class="row bg-primary text-white justify-content-center text-center">
+      <div class="col-12 col-md-8">
+          <h4 class="font-weight-bold">¡Sé parte del semáforo electoral!</h4>
+          <h5 class="font-weight-light">
+            La transparencia en nuestras elecciones es la base de la calidad de nuestra democracia. En semáforo electoral damos luz verde a la buena democracia e invitamos a frenar las irregularidades a través de denuncias ciudadanas.
+          </h5>
+      </div>
+      <div class="col-12 text-center">
+          <a href="/#report"><button class="btn btn-warning text-white my-3 px-4">¿Cómo denunciar?</button></a>
+      </div>
+      <div id="reset-scroll"></div>
+  </div>
 
 </div>
 <div class="bg-light py-4">
@@ -71,29 +71,33 @@
     <div class="content">
     {{outlet}}
     </div>
-
-    {{!-- Reportar --}}
-    <div id="report" class="row bg-light">
-      <div class="col-12 text-center py-5 mt-5 m-md-auto p-md-auto">
-        <h2>¿Presenciaste alguna irregularidad?</h2>
-        <p>Cualquier ciudadano puede hacer una denuncia, si detectas algo ilegal denuncia en:</p>
-      </div>
-      <div class="col-12 text-center">
-        <a href="tel:+50223783900">
-          <button class="btn btn-lg bg-white text-secondary">
-            <img src="img/iconos/i-telefono.png" alt="Teléfono" height="30px" class="mx-2">
-            2378-3900
-          </button>
-        </a>
-        <a href="http://www.tse.org.gt/" target="_blank">
-          <button class="btn btn-lg bg-white text-secondary">
-            <img src="img/iconos/i-contacto-tse.png" alt="Teléfono" height="30px" class="mx-2">
-            tse.org.gt
-          </button>
-        </a>
-      </div>
+</div>
+<div class="bg-light">
+    <div class="container">
+        {{!-- Reportar --}}
+        <div id="report" class="row bg-light">
+        <div class="col-12 text-center py-5 mt-5 m-md-auto p-md-auto">
+            <h2>¿Presenciaste alguna irregularidad?</h2>
+            <p>Cualquier ciudadano puede hacer una denuncia, si detectas algo ilegal denuncia en:</p>
+        </div>
+        <div class="col-12 text-center">
+            <a href="tel:+50223783900">
+            <button class="btn btn-lg bg-white text-secondary">
+                <img src="img/iconos/i-telefono.png" alt="Teléfono" height="30px" class="mx-2">
+                2378-3900
+            </button>
+            </a>
+            <a href="http://www.tse.org.gt/" target="_blank">
+            <button class="btn btn-lg bg-white text-secondary">
+                <img src="img/iconos/i-contacto-tse.png" alt="Teléfono" height="30px" class="mx-2">
+                tse.org.gt
+            </button>
+            </a>
+        </div>
+        </div>
     </div>
-
+</div>
+<div class="container">
     {{!-- Ciudadano Inteligente & TSE --}}
     <div class="row bg-white text-center colaboradores">
       <div class="col-12 text-center">

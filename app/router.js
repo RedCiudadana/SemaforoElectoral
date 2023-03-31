@@ -34,6 +34,8 @@ Router.map(function() {
     this.route('durante', { path: '/'});
     this.route('despues');
   });
+
+  this.route('material', { path: '/material'});
 });
 
 export default Router;

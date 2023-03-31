@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos general -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Semáforo Electoral | Material</title>
+    <meta name="description" content="Campañas limpias y reglas parejas para que todos enriquezcamos las elecciones. No dejemos que se ensucie nuestra democracia; fiscalicemos entre todos las campañas electorales.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 'Twitter Card' -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@RedxGuate">
+    <meta name="twitter:title" content="Semáforo Electoral">
+    <meta name="twitter:description" content="Campañas limpias y reglas parejas para que todos enriquezcamos las elecciones. No dejemos que se ensucie nuestra democracia; fiscalicemos entre todos las campañas electorales.">
+    <meta name="twitter:image" content="https://github.com/RedCiudadana/Recursos-Semaforo-Electoral/blob/master/se-twitter-card.png?raw=true">
+    <meta name="twitter:label1" content="Autor">
+    <meta name="twitter:data1" content="Red Ciudadana">
+
+    <!-- Open Graph ~ Facebook-->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Campañas limpias y reglas parejas">
+    <meta property="og:site_name" content="Semáforo Electoral">
+    <meta property="og:url" content="http://semaforoelectoral.gt/">
+    <meta property="og:image" content="https://github.com/RedCiudadana/Recursos-Semaforo-Electoral/blob/master/se-twitter-card.png?raw=true">
+    <meta property="article:author" content="http://redciudadana.org">
+
+    {{content-for "head"}}
+
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/semaforo-electoral.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="text-center">
+            <img src="/img/loader.gif" style="width:50%;height:auto;margin:auto" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    {{content-for "body"}}
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/semaforo-electoral.js"></script>
+
+    {{content-for "body-footer"}}
+    <script src="https://my.hellobar.com/3b7d7747ccd51fe0ec03f3c2ba894392ecadd5d8.js" type="text/javascript" charset="utf-8" async="async"></script>
+
+    <script>
+      (function ($) {
+        ("use strict");
+        // Page loading
+        $(window).on("load", function () {
+          $("#preloader-active").delay(450).fadeOut("slow");
+          $("body").delay(450).css({
+            overflow: "visible"
+          });
+          $("#onloadModal").modal("show");
+        });
+      
+      })(jQuery);
+    </script>
+
+  </body>
+</html>
