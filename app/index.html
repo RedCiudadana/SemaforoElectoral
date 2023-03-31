@@ -35,6 +35,16 @@
     {{content-for "head-footer"}}
   </head>
   <body>
+    <!-- Preloader Start -->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="text-center">
+            <img src="/img/loader.gif" style="width:50%;height:auto;margin:auto" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
@@ -42,5 +52,21 @@
 
     {{content-for "body-footer"}}
     <script src="https://my.hellobar.com/3b7d7747ccd51fe0ec03f3c2ba894392ecadd5d8.js" type="text/javascript" charset="utf-8" async="async"></script>
+
+    <script>
+      (function ($) {
+        ("use strict");
+        // Page loading
+        $(window).on("load", function () {
+          $("#preloader-active").delay(450).fadeOut("slow");
+          $("body").delay(450).css({
+            overflow: "visible"
+          });
+          $("#onloadModal").modal("show");
+        });
+      
+      })(jQuery);
+    </script>
+
   </body>
 </html>

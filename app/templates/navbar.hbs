@@ -6,7 +6,7 @@
   fluid=false
 as |navbar|
 }}
-  <div class="navbar-header">
+  <div class="navbar-header d-flex">
     {{navbar.toggle}}
 
     {{#link-to "application" class="navbar-brand"}}
@@ -22,7 +22,7 @@ as |navbar|
     {{#link-to "application" class="navbar-brand"}}
       <img
         src="img/LOGO-RED_NEGRO.png"
-        class="img-responsive"
+        class="img-responsive resize"
         title={{nombreApp}}
         alt="Red Ciudadana"
         height="45"
