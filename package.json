@@ -64,7 +64,7 @@
     "node": "6.* || 8.* || >= 10.*"
   },
   "dependencies": {
-    "node-sass": "^4.9.4",
+    "bower": "^1.8.14",
     "tabletop": "^1.5.2"
   }
 }

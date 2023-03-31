@@ -1,7 +1,5 @@
 'use strict';
 
-const nodeSass = require('node-sass');
-
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
@@ -14,7 +12,7 @@ module.exports = function(defaults) {
 
     sassOptions: {
       // Utiliza nodeSass que es mas rapido para generar los archivos.
-      implementation: nodeSass
+      // implementation: nodeSass
     }
   });
 
