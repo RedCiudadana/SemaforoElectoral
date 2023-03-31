@@ -175,21 +175,20 @@ body {
 
     button {
         width: 90%;
-        height: 3.5rem;
         -webkit-box-shadow: 6px 6px 0px 2px rgba(63,82,109,0.2);
         -moz-box-shadow: 6px 6px 0px 2px rgba(63,82,109,0.2);
         box-shadow: 6px 6px 0px 2px rgba(63,82,109,0.2);
     }
 
     img {
-        display: none !important;
-        margin-bottom: 5px;
+        height: 70px;
+        margin: 25px 0;
     }
 
     p {
-        margin: 0;
         font-weight: bold;
-        font-size: 0.7rem;
+        font-size: 1.2rem;
+        margin: 10px 0;
     }
 
     .bg-secondary p {
@@ -200,16 +199,16 @@ body {
 @include media-breakpoint-up(sm) {
     .tab-pdd {
         button {
-            width: 220px;
-            height: 7.5rem;
+            width: 90%;
 
             img {
-                display: block;
-                height: 40px;
+                height: 70px;
+                margin: 25px 0;
             }
 
             p {
-                font-size: 1rem;
+                font-size: 1.2rem;
+                margin: 10px 0;
             }
         }
     }
@@ -239,11 +238,15 @@ i {
     background-color: $light;
 }
 
+.btn{
+    border-radius: 10px!important;
+}
+
 .btn-lg {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 10px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 // Reset scroll
